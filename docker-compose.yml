@@ -6,5 +6,5 @@ services:
         hostname: "pi-shrink"
         build: pishrink
         volumes:
-            - ./:/root/
+            - //d/rpi_image:/root/
         privileged: true
